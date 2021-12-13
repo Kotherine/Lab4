@@ -7,5 +7,9 @@
 #include <broker.hpp>
 
 TEST(Example, EmptyTest) {
-    EXPECT_THROW(example(), std::runtime_error);
+  std::string a = "n";
+  std::string n = "12345678";
+  std::string d = "20202020";
+  Broker b(a, n, d);
+  EXPECT_TRUE(1);
 }
