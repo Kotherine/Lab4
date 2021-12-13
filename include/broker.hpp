@@ -6,6 +6,7 @@
 #include <boost/regex.hpp>
 #include <string>
 #include "boost/filesystem.hpp"
+#include <map>
 
 class Broker{
  private:
